@@ -373,6 +373,15 @@ header {
         text-align: center; /* Mengatur konten body ke tengah pada layar mobile */
     }
 
+    header .menu ul li a {
+        font-size: 12px; /* Mengurangi ukuran font pada menu di header */
+        padding: 5px 8px; /* Mengurangi padding pada menu di header */
+    }
+
+    .logo img {
+        max-width: 70px; /* Mengurangi lebar maksimum logo */
+    }
+
     .kotak {
         height: calc(50% - 50px);
         width: calc(50% - 50px); /* Mengatur lebar kotak menjadi setengah dari lebar layar dengan margin 20px di setiap sisi */
@@ -384,6 +393,7 @@ header {
     }
 
     .overview {
+        margin-top: 50px;
         flex-direction: column; /* Mengubah tata letak konten menjadi tata letak kolom pada tampilan mobile */
         margin-left: 5%; /* Mengurangi margin kiri */
         margin-right: 5%; /* Mengurangi margin kanan */
